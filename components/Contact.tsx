@@ -11,11 +11,9 @@ export function ContactForm() {
     const [email, setEmail] = useState('');
     const [company, setCompany] = useState('');
     const [message, setMessage] = useState('');
-    const [status, setStatus] = useState('');
 
     const handleSubmit = async (event: React.FormEvent) => {
         event.preventDefault();
-        setStatus('Sending...');
     
         const data = {
             name,
@@ -34,16 +32,16 @@ export function ContactForm() {
             });
     
             if (response.ok) {
-                setStatus('Message sent successfully!');
+                alert('Mission accomplished! Message has left the building!');
                 setName('');
                 setEmail('');
                 setMessage('');
             } else {
-                setStatus('Failed to send message.');
+                alert('Holy Smokes! Something went wrong...');
             }
         } catch (error) {
             console.error('Error:', error);
-            setStatus('An error occurred. Please try again.');
+            alert('Holy Smokes! - Something went wrong...');
         }
     };
 
@@ -147,7 +145,6 @@ export function ContactForm() {
                         <button type="submit" className="flex space-x-2 items-center font-semibold px-4 py-2 rounded-lg bg-white text-black transition-all duration-300 transform hover:bg-indigo-700 hover:text-white hover:scale-105 active:scale-95 active:bg-gray-800 active:text-white"                    >
                             Submit
                         </button>
-                        {status && <p>{status}</p>}
                     </form>
                 </div>
             </div>
