@@ -13,7 +13,7 @@ export async function POST(request: Request) {
       Supreme Overlord of Emails<br>
       Chief Everything Officer (CEO)<br>
       <a href="https://gagansingh.co.uk">gagansingh.co.uk</a><br><br>
-      <img src="http://localhost:3000/full-logo.png" alt="logo" style="width: 100px;">
+      <img src="http://gagansingh.co.uk/full-logo.png" alt="logo" style="width: 100px;">
     `;
 
     const msgToAdmin = {
