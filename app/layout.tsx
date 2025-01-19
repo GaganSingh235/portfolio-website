@@ -16,6 +16,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
     title: "Gagan Singh",
     description: "Portfolio | Gagan Singh",
+    icons: {
+        icon: "/short-logo.png",
+    },
 };
 
 export default function RootLayout({
@@ -26,6 +29,12 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
+                <meta name="description" content="Portfolio | Gagan Singh" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta property="og:title" content="Gagan Singh" />
+                <meta property="og:description" content="Portfolio | Gagan Singh" />
+                <meta property="og:image" content="/path-to-your-preview-image.png" />
+                <meta property="og:type" content="website" />
                 <link rel="icon" href="/short-logo.png" />
             </head>
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
