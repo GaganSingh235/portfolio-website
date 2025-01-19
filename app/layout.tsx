@@ -25,6 +25,11 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <head>
+                <title>{metadata.title}</title>
+                <meta name="description" content={metadata.description} />
+                <link rel="icon" href="/favicon.ico" />
+            </head>
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
                 {children}
             </body>
