@@ -33,7 +33,7 @@ export default function RootLayout({
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta property="og:title" content="Gagan Singh" />
                 <meta property="og:description" content="Portfolio | Gagan Singh" />
-                <meta property="og:image" content="/path-to-your-preview-image.png" />
+                <meta property="og:image" content="/short-logo.png" />
                 <meta property="og:type" content="website" />
                 <link rel="icon" href="/short-logo.png" />
             </head>
