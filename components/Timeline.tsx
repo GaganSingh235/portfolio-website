@@ -167,10 +167,10 @@ const data = [
                     Don&apos;t think I&apos;m stopping; The frontiers most captivating to me now include AI, cybersecurity, and quantum computing.
                 </p>
                 <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-                    Learning, adaptive, evolvoving systems feels like science fiction come true; on the flip side, cybersecurity provides the challenge of not creating Skynet.
+                    Learning, adaptive, evolving systems feels like science fiction come true; on the flip side, cybersecurity provides the challenge of not creating Skynet.
                 </p>
                 <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-                    The problem of how Shor&apos;s Algorithm poses the threat of breaking cryptographic algorithms was kinda cool (and scary... *ahem* of course).
+                    The problem of how Shor&apos;s Algorithm poses the threat of breaking cryptographic algorithms was kinda cool (and scary... of course).
                 </p>
                 <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
                     Q-bits representing simultaneous values by exploiting superposition astounded me about the potential for such powerful tech.
@@ -241,7 +241,7 @@ const data = [
         content: (
             <div>
                 <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-                    Built a dynamic website for Noumed Life Science, an international pharmaceutical company, from scratch.
+                    Built a dynamic website for Noumed Life Sciences, based in Maidenhead, an international pharmaceutical company, from scratch.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                     <motion.div
@@ -461,6 +461,9 @@ const data = [
                 </p>
                 <p className="text-neutral-200 text-xs md:text-sm font-normal mb-4">
                     Made some simple games and picked up basic computational logic
+                </p>
+                <p className="text-neutral-200 text-xs md:text-sm font-normal mb-4">
+                    Definitely not images from Google
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                     <motion.div
