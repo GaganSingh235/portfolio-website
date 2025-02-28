@@ -106,7 +106,7 @@ const data = [
                     transition={{ delay: 0.1, duration: 1 }}
                 >
                     <Image
-                        src="/timeline/larche/larche.png"
+                        src="/timeline/larche/login.png"
                         alt="L'Arche"
                         width={500}
                         height={500}
@@ -120,7 +120,7 @@ const data = [
                     transition={{ delay: 0.2, duration: 1 }}
                 >
                     <Image
-                        src="/timeline/larche/larche-zimbabwe.png"
+                        src="/timeline/larche/dashboard.png"
                         alt="L'Arche Zimbabwe"
                         width={500}
                         height={500}
@@ -134,7 +134,7 @@ const data = [
                     transition={{ delay: 0.3, duration: 1 }}
                 >
                     <Image
-                        src="/timeline/larche/candle-designer.png"
+                        src="/timeline/larche/canvas.png"
                         alt="3D Candle Designer"
                         width={500}
                         height={500}
@@ -148,7 +148,7 @@ const data = [
                     transition={{ delay: 0.4, duration: 1 }}
                 >
                     <Image
-                        src="/timeline/larche/larche-code.png"
+                        src="/timeline/larche/rename.png"
                         alt="L'Arche Code"
                         width={500}
                         height={500}
