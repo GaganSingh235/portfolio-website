@@ -7,7 +7,7 @@ import { FeaturedImages } from "./ui/FeaturedImages";
 export function Hero() {
     return (
         <div className="w-full bg-neutral-950 bg-grid-white/[0.05] relative overflow-hidden pt-20" id="home">
-            <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
+            <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
                 <Navbar />
                 <div className="relative pb-4 flex flex-col items-start justify-center overflow-hidden px-8 md:px-8">
                     <div className="relative flex flex-col items-start mt-20 lg:pl-20">
