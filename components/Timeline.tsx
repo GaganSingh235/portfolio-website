@@ -148,7 +148,7 @@ const data = [
                     transition={{ delay: 0.4, duration: 1 }}
                 >
                     <Image
-                        src="/timeline/larche/rename.png"
+                        src="/timeline/larche/avatar.png"
                         alt="L'Arche Code"
                         width={500}
                         height={500}
