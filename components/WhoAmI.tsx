@@ -32,9 +32,9 @@ export const WhoAmI = () => {
                                 viewport={{ once: true, amount: 0.5 }}
                                 transition={{ delay: 0.3 + index * 0.2, duration: 1 }}
                             >
-                                <div className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden">
+                                <div className="relative bg-gradient-to-b from-neutral-900 to-neutral-950 p-6 rounded-3xl overflow-hidden">
                                     <Grid size={20} />
-                                    <p className="text-neutral-600 dark:text-neutral-400 mt-4 text-base font-normal relative z-20">
+                                    <p className="text-neutral-400 mt-4 text-base font-normal relative z-20">
                                         {description}
                                     </p>
                                 </div>
