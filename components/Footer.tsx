@@ -23,10 +23,10 @@ export function Footer() {
     ];
 
     const socials = [
-        // {
-        //     title: "LinkedIn",
-        //     href: "https://www.linkedin.com/in/gagan-singh-6ba207324",
-        // },
+        {
+            title: "LinkedIn",
+            href: "https://www.linkedin.com/in/gagan-singh-6ba207324",
+        },
         {
             title: "Contact Me",
             href: "contact",
