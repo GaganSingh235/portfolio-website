@@ -41,7 +41,7 @@ export function Footer() {
                         <Logo type="short" />
                     </div>
                     <div className="mt-8 ml-2 max-w-xl">
-                        &copy; copyright 2024 Gagan Singh. All rights reserved. <br /><br /> We collect your name, email, and message to respond to inquiries. We don&apos;t track CV downloads or share your data. Contact info@gagansingh.co.uk for any concerns.
+                        &copy; copyright 2025 Gagan Singh. All rights reserved. <br /><br /> Your name, email, and message are collected respond to inquiries. CV downloads aren't tracked, nor is your data shared. Contact info@gagansingh.co.uk for any concerns.
                     </div>
                 </div>
 
